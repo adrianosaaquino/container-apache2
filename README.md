@@ -11,16 +11,16 @@ $ docker run -it --rm "80:80" aaquino/apache2
 ```
 
 ### Expose
-80
-443
+- 80
+- 443
 
 ### Volumes
-/usr/local/apache2/conf.d
-/usr/local/apache2/www
-/usr/local/apache2/logs
-/usr/local/apache2/certs
+- /usr/local/apache2/conf.d
+- /usr/local/apache2/www
+- /usr/local/apache2/logs
+- /usr/local/apache2/certs
 
-## Simplee example with docker-compose
+## Simple example with docker-compose
 
 
 ```
