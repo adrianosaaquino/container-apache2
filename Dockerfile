@@ -1,4 +1,4 @@
-FROM httpd:2.4.52
+FROM httpd:2.4.54
 LABEL maintainer="adrianosaaquino@gmail.com"
 EXPOSE 80 443
 RUN runDeps="nano curl less libaprutil1-ldap openssl ca-certificates" \
